@@ -26,6 +26,7 @@ setup(
         },
     version = version,
     description = "Python command line example package",
+    install_requires = open("requirements.txt").read().split("\n"),
     long_description = long_descr,
     author = "Oji Setyawan",
     author_email = "ojixzzz@gmail.com",
